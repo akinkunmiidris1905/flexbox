@@ -1,0 +1,36 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+   /* display: flex;
+   justify-content: center; */
+   /* flex-wrap: wrap-reverse; */
+/* flex-direction: row-reverse; */
+/* align-items: center; */
+}
+
+.child-one, .child-two, .child-three, .child-four, .child-five, .child-six, .child-seven, .child-eight, .child-nine, .child-ten{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    position: fixed;
+    left: 600px;
+    top: 300px;
+}
+
+.half{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    position: sticky;
+    top: 0;
+
+}
